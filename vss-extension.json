@@ -1,0 +1,36 @@
+{
+    "manifestVersion": 1,
+    "id": "variablesToEnvironmentFiles",
+    "name": "Variables to environment files",
+    "version": "1.0.0",
+    "publisher": "MagnusHindborgHovmann",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Convert variables into one or multiple environment files",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "icons": {
+        "default": "images/extension-icon.png"        
+    },
+    "files": [
+        {
+            "path": "buildandreleasetask"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "variablesToEnvironmentFiles",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "buildandreleasetask"
+            }
+        }
+    ]
+}
