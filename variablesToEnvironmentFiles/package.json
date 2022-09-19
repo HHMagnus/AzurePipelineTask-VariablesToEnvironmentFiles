@@ -4,7 +4,7 @@
   "description": "Convert variables into one or multiple environment files",
   "main": "index.js",
   "scripts": {
-    "test": "tsc && mocha tests/_suite.js"
+    "test": "tsc && mocha ./tests/_suite.js --reporter xunit --reporter-option output=ResultsFile.xml"
   },
   "keywords": [],
   "author": "Magnus Hindborg Hovmann",
