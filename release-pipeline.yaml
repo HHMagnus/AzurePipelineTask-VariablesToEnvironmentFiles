@@ -93,7 +93,7 @@ stages:
               connectTo: 'VsTeam'
               connectedServiceName: 'PublishTaskToMarketPlaceServiceConnection'
               fileType: 'vsix'
-              vsixFile: '$(PublisherID).$(ExtensionName)-$(Version).vsix'
+              vsixFile: '$(PublisherID).$(ExtensionID)-$(Version).vsix'
               publisherId: '$(PublisherID)'
               extensionId: '$(ExtensionID)'
               extensionName: '$(ExtensionName)'
