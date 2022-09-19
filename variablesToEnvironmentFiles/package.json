@@ -1,14 +1,14 @@
 {
   "name": "variablestoenvironmentfiles",
   "version": "1.0.1",
-  "description": "",
+  "description": "Convert variables into one or multiple environment files",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsc && mocha tests/_suite.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Magnus Hindborg Hovmann",
+  "license": "MIT",
   "dependencies": {
     "azure-pipelines-task-lib": "^4.0.0-preview"
   },
