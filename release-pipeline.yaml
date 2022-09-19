@@ -29,7 +29,7 @@ stages:
           - task: Npm@1
             inputs:
               command: 'custom'
-              workingDir: '/variablesToEnvironmentFiles
+              workingDir: '/variablesToEnvironmentFiles'
               customCommand: 'test'
           - task: PublishTestResults@2
             inputs:
