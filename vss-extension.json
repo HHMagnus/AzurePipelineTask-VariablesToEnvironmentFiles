@@ -1,7 +1,7 @@
 {
 	"manifestVersion": 1,
 	"id": "variablesToEnvironmentFiles",
-	"name": "Variables to environment files",
+	"name": "Variables to .env files",
 	"version": "1.0.1",
 	"publisher": "MagnusHindborgHovmann",
 	"targets": [
@@ -9,7 +9,7 @@
 			"id": "Microsoft.VisualStudio.Services"
 		}
 	],
-	"description": "Convert variables into one or multiple environment files",
+	"description": "Convert variables into one or multiple .env files",
 	"categories": [
 		"Azure Pipelines"
 	],

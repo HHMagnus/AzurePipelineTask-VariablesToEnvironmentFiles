@@ -1,7 +1,7 @@
 {
   "name": "variablestoenvironmentfiles",
   "version": "1.0.1",
-  "description": "Convert variables into one or multiple environment files",
+  "description": "Convert variables into one or multiple .env files",
   "main": "index.js",
   "scripts": {
     "test": "tsc && mocha ./tests/_suite.js --reporter xunit --reporter-option output=ResultsFile.xml"

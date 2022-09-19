@@ -2,8 +2,8 @@
     "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
     "id": "03a25fb3-52d6-4484-a579-95151803bbf0",
     "name": "variablesToEnvironmentFiles",
-    "friendlyName": "Variables to environment files",
-    "description": "Convert build or release variables into one or more environment files",
+    "friendlyName": "Variables to .env files",
+    "description": "Convert build or release variables into one or more .env files",
     "helpMarkDown": "",
     "category": "Utility",
     "author": "Magnus Hindborg Hovmann",
@@ -12,7 +12,7 @@
         "Minor": 0,
         "Patch": 2
     },
-    "instanceNameFormat": "Variables to Environment files",
+    "instanceNameFormat": "Variables to .env files",
     "inputs": [
         {
             "name": "filepath",
