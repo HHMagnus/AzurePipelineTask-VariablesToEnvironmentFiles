@@ -17,7 +17,7 @@ stages:
           - task: Npm@1
             inputs:
               command: 'install'
-              workingDir: '/variablesToEnvironmentFiles'
+              workingDir: './variablesToEnvironmentFiles'
           - task: Bash@3
             displayName: Compile Javascript
             inputs:
@@ -28,7 +28,7 @@ stages:
           - task: Npm@1
             inputs:
               command: 'custom'
-              workingDir: '/variablesToEnvironmentFiles'
+              workingDir: './variablesToEnvironmentFiles'
               customCommand: 'test'
           - task: PublishTestResults@2
             inputs:
@@ -44,7 +44,7 @@ stages:
           - task: Npm@1
             inputs:
               command: 'install'
-              workingDir: '/variablesToEnvironmentFiles'
+              workingDir: './variablesToEnvironmentFiles'
           - task: Bash@3
             displayName: Compile Javascript
             inputs:
