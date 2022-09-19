@@ -51,7 +51,7 @@ stages:
             inputs:
               targetType: "inline"
               script: |
-                cd TaskDirectory # Update to the name of the directory of your task
+                cd variablesToEnvironmentFiles
                 tsc
           - task: QueryAzureDevOpsExtensionVersion@3
             inputs:
