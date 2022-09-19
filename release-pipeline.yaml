@@ -5,6 +5,7 @@ pool: default
 
 variables:
   - group: PublishToMarketPlaceVariables
+  - Version: '1.0.0'
 
 stages:
   - stage: Run_and_publish_unit_tests
@@ -58,7 +59,7 @@ stages:
               publisherId: '$(PublisherID)'
               extensionId: '$(ExtensionID)'
               extensionName: '$(ExtensionName)'
-              extensionVersion: '1.0.1'
+              extensionVersion: '$(Version)'
               updateTasksVersion: true
               updateTasksVersionType: 'patch'
               extensionVisibility: 'public'
@@ -91,7 +92,7 @@ stages:
               connectTo: 'VsTeam'
               connectedServiceName: 'PublishTaskToMarketPlaceServiceConnection'
               fileType: 'vsix'
-              vsixFile: '$(PublisherID).$(ExtensionName)/$(PublisherID)..vsix'
+              vsixFile: '$(PublisherID).$(ExtensionName)-$(Version).vsix'
               publisherId: '$(PublisherID)'
               extensionId: '$(ExtensionID)'
               extensionName: '$(ExtensionName)'
