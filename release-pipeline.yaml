@@ -5,6 +5,8 @@ pool: default
 
 variables:
   - group: PublishToMarketPlaceVariables
+  - name: Version
+    type: string
 
 stages:
   - stage: Run_and_publish_unit_tests
@@ -58,7 +60,7 @@ stages:
               publisherId: '$(PublisherID)'
               extensionId: '$(ExtensionID)'
               extensionName: '$(ExtensionName)'
-              extensionVersion: '$(Task.Extension.Version)'
+              extensionVersion: '$(Version)'
               updateTasksVersion: true
               updateTasksVersionType: 'patch'
               extensionVisibility: 'public'
