@@ -1,6 +1,8 @@
 trigger: 
 - main
 
+pool: default
+
 variables:
   - group: PublishToMarketPlaceVariables
 
