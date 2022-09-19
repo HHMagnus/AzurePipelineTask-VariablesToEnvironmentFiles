@@ -42,7 +42,7 @@
 	},
 	"content": {
 		"license": {
-			"path": "license.md"
+			"path": "LICENSE"
 		},
 		"details": {
 			"path": "README.md"
