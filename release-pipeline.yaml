@@ -6,7 +6,7 @@ pool: default
 variables:
   - group: PublishToMarketPlaceVariables
   - name: Version
-    type: string
+     type: string
 
 stages:
   - stage: Run_and_publish_unit_tests
