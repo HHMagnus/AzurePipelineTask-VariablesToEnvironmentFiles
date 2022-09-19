@@ -2,7 +2,7 @@
 	"manifestVersion": 1,
 	"id": "variablesToEnvironmentFiles",
 	"name": "Variables to environment files",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "MagnusHindborgHovmann",
 	"targets": [
 		{
