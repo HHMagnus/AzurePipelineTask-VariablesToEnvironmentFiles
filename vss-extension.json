@@ -1,36 +1,51 @@
 {
-    "manifestVersion": 1,
-    "id": "variablesToEnvironmentFiles",
-    "name": "Variables to environment files",
-    "version": "1.0.0",
-    "publisher": "MagnusHindborgHovmann",
-    "targets": [
-        {
-            "id": "Microsoft.VisualStudio.Services"
-        }
-    ],    
-    "description": "Convert variables into one or multiple environment files",
-    "categories": [
-        "Azure Pipelines"
-    ],
-    "icons": {
-        "default": "images/extension-icon.png"        
-    },
-    "files": [
-        {
-            "path": "buildandreleasetask"
-        }
-    ],
-    "contributions": [
-        {
-            "id": "variablesToEnvironmentFiles",
-            "type": "ms.vss-distributed-task.task",
-            "targets": [
-                "ms.vss-distributed-task.tasks"
-            ],
-            "properties": {
-                "name": "buildandreleasetask"
-            }
-        }
-    ]
+	"manifestVersion": 1,
+	"id": "variablesToEnvironmentFiles",
+	"name": "Variables to environment files",
+	"version": "1.0.0",
+	"publisher": "MagnusHindborgHovmann",
+	"targets": [
+		{
+			"id": "Microsoft.VisualStudio.Services"
+		}
+	],
+	"description": "Convert variables into one or multiple environment files",
+	"categories": [
+		"Azure Pipelines"
+	],
+	"tags": [
+		"Azure Pipelines"
+	],
+	"icons": {
+		"default": "images/extension-icon.png"
+	},
+	"files": [
+		{
+			"path": "variablesToEnvironmentFiles"
+		}
+	],
+	"contributions": [
+		{
+			"id": "variablesToEnvironmentFiles",
+			"type": "ms.vss-distributed-task.task",
+			"targets": [
+				"ms.vss-distributed-task.tasks"
+			],
+			"properties": {
+				"name": "variablesToEnvironmentFiles"
+			}
+		}
+	],
+	"repository": {
+		"type": "git",
+		"uri": "https://github.com/HHMagnus/AzurePipelineTask-VariablesToEnvironmentFiles"
+	},
+	"content": {
+		"license": {
+			"path": "license.md"
+		},
+		"details": {
+			"path": "README.md"
+		}
+	}
 }
