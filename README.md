@@ -4,7 +4,7 @@ An Azure pipeline task step to convert variables into separate .env files for mu
 ## Motivation
 We previously deployed environments by mapping all Azure DevOps variables directly to environment variables in the running container. This ensured consistent setup across environments. However, a need arose to change the `ConnectionString` for a specific environment without affecting the others.
 
-To handle this, a task was created to support two distinct `ConnectionString?  values, enabling environment-specific overrides. The task was initially tested in the test environment, but the associated project was later cancelled in 2022, and it has not been used since.
+To handle this, a task was created to support two distinct `ConnectionString`  values, enabling environment-specific overrides. The task was initially tested in the test environment, but the associated project was later cancelled in 2022, and it has not been used since.
 
 ## Usage
 Specify a list of environment using multiple lines:  
